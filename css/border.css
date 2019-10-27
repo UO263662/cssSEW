@@ -1,0 +1,24 @@
+a{
+    border-color: white;
+    border-style: inset;
+    border-width: 5px;
+}
+table, td, th, tr{
+    border-color: white;
+    border-style: groove;
+    border-collapse: collapse;
+}
+h1, h2, h3, h4, h5, h6{
+    border-bottom: 2px;
+    border-bottom-color: white;
+    border-bottom-style: inset;
+    border-collapse: collapse;
+}
+article, section, header, footer{
+    border-color: white;
+    border-style: dashed;
+    border-collapse: collapse;
+}
+li{
+    list-style-type: none;
+}
