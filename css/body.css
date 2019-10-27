@@ -8,8 +8,6 @@ body{
         "footer";
 }
 aside{
-    grid-area: aside;
-    width: 1fr;
     padding: 10px;
     margin-left: 50px;
     margin-right: 50px;
@@ -37,7 +35,6 @@ main{
 }
 a{
     padding: 10px;
-    width: 1fr;
     display: block;
 }
 video{
@@ -62,6 +59,7 @@ table, th, td, tr{
     padding: 5px;
 }
 @media (min-width: 1000px){ /*Curiosamente si lo hago al reves (con el body de fuera dentro de un max-width) no me funciona*/
+    /*Aqui da un warning, no obstante, sin esta redefinicion no se adapta bien al movil*/
     body{
         display: grid;
         grid-template-columns: 1fr 2fr;

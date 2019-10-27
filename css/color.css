@@ -8,6 +8,7 @@ table, th, td, tr{
 }
 p, li, ul{
     color: antiquewhite;
+    background-color: black;
 }
 
 a{
@@ -16,11 +17,14 @@ a{
 }
 a:link{
     color: crimson;
+    background-color: black;;
 }
 a:visited{
     color: lightcoral;
+    background-color: black;
 }
 
 article, section, header, footer{
+    color: white;
     background-color: black;
 }
