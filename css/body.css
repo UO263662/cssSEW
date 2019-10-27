@@ -37,6 +37,11 @@ video{
     object-fit: cover;
     overflow: hidden;
 }
+img{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
 @media (min-width: 1000px){ /*Curiosamente si lo hago al reves (con el body de fuera dentro de un max-width) no me funciona*/
     body{
         display: grid;
@@ -45,5 +50,10 @@ video{
             "header header"
             "aside content"
             "footer footer";
+    }
+    img{
+        width: 50%;
+        padding: 10px;
+        height: auto;
     }
 }
