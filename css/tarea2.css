@@ -1,0 +1,7 @@
+p, li, td{
+    font-family: serif;
+    font-size: 16px;
+}
+p::first-letter {
+    font-size: 25px
+}

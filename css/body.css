@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+        "header header"
+        "aside content"
+        "footer footer";
+}
+aside{
+    grid-area: aside;
+}
+/*main{
+    grid-area: section;
+}*/
+header{
+    grid-area: header;
+}
+footer{
+    grid-area: footer;
+}

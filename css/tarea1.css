@@ -1,0 +1,14 @@
+h1, h3, h5{font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-size: 36px;
+    font-size-adjust: 1;}
+h2, h4, h6{font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    font-size-adjust: 0.8;}
+h3{font-size-adjust: 0.6;}
+h4{font-size-adjust: 0.4;}
+h5{font-size-adjust: 0.3;}
+h6{font-size-adjust: 0.2;}
