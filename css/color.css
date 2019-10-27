@@ -1,19 +1,26 @@
 h1, h2, h3, h4, h5, h6{
     color: red;
     background-color: black;
-    padding: 10px;
 }
-p, li, td{
+table, th, td, tr{
+    color: white;
+    background-color: black;
+}
+p, li, ul{
     color: antiquewhite;
-    background-color: black;
-    padding: 10px;
-}
-
-article{
-    background-color: black;
 }
 
 a{
     color: lightcoral;
+    background-color: black;
+}
+a:link{
+    color: crimson;
+}
+a:visited{
+    color: lightcoral;
+}
+
+article, section, header, footer{
     background-color: black;
 }
