@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6{
+    color: red;
+    background-color: black;
+    padding: 10px;
+}
+p, li, td{
+    color: antiquewhite;
+    background-color: black;
+    padding: 10px;
+}
+
+article{
+    background-color: black;
+}
+
+a{
+    color: lightcoral;
+    background-color: black;
+}

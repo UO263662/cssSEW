@@ -5,3 +5,6 @@ p, li, td{
 p::first-letter {
     font-size: 25px
 }
+a{
+    text-decoration: none;
+}
