@@ -27,6 +27,17 @@ article, section{
     margin-bottom: 30px;
     margin-right: 50px;
 }
+@media (min-width: 1000px){ /*Curiosamente si lo hago al reves (con el body de fuera dentro de un max-width) no me funciona*/
+    /*Aqui da un warning, no obstante, sin esta redefinicion no se adapta bien al movil*/
+    body{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+            "header header"
+            "aside content"
+            "footer footer";
+    }
+}
 table{
     margin: 25px;
 }
@@ -57,15 +68,4 @@ h1, h2, h3, h4, h5, h6{
 }
 table, th, td, tr{
     padding: 5px;
-}
-@media (min-width: 1000px){ /*Curiosamente si lo hago al reves (con el body de fuera dentro de un max-width) no me funciona*/
-    /*Aqui da un warning, no obstante, sin esta redefinicion no se adapta bien al movil*/
-    body{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-areas: 
-            "header header"
-            "aside content"
-            "footer footer";
-    }
 }
